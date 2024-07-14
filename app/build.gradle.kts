@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dhruv.jokes"
+    namespace = "com.aditya.jokes"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.dhruv.jokes"
+        applicationId = "com.aditya.jokes"
         minSdk = 24
         targetSdk = 34
         versionCode = 3
