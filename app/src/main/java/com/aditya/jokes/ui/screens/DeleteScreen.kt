@@ -29,7 +29,6 @@ fun DeleteScreen(
         if (showDialog) {
             AlertDialog(
                 onDismissRequest = {
-                    // Dismiss the dialog when clicked outside
                     showDialog = false
                 },
                 title = {

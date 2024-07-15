@@ -37,7 +37,6 @@ class JokesViewModel @Inject constructor(private val jokesRepo: JokesRepo): View
             }
         }
     }
-
     fun updateBookmarkStatus(id: Int, bookmarked: Boolean) {
         viewModelScope.launch {
             jokesRepo.updateBookmarkStatus(id, bookmarked)
@@ -66,7 +65,6 @@ class JokesViewModel @Inject constructor(private val jokesRepo: JokesRepo): View
             }
         }
     }
-
     fun deleteJokeViaId(id: Int){
         viewModelScope.launch {
             try {
